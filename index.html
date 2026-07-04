@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>An Menghour — Full-Stack Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Inter+Tight:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Bootstrap 5 -->
+
+    <link href="assets/vendors/css/bootstrap.css" rel="stylesheet" />
+
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- ================= NAV ================= -->
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">An Menghour</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          style="border-color: var(--border); color: var(--text)"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav mx-auto gap-md-4 gap-2 py-3 py-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-3">
+            <button
+              class="theme-toggle"
+              id="themeToggle"
+              aria-label="Toggle light and dark mode"
+              type="button"
+            >
+              <svg class="icon-moon" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <svg class="icon-sun" viewBox="0 0 24 24" fill="none">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="4"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <a class="nav-cta" href="#contact">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+      <div class="container">
+        <div class="row align-items-center g-5 flex-column-reverse flex-md-row">
+          <div class="col-md-7">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>Available for new roles
+            </div>
+            <h1 class="hero-title">
+              Building reliable backend systems and clean
+              <span class="grad">full-stack applications.</span>
+            </h1>
+            <p class="hero-sub">
+              I'm a junior full-stack developer who enjoys building web
+              applications, backend APIs, and learning how scalable systems work
+              in real-world environments.
+            </p>
+            <div class="d-flex gap-3 flex-wrap">
+              <a class="btn-app btn-app-primary" href="#projects"
+                >View projects</a
+              >
+              <a class="btn-app btn-app-ghost" href="#contact">Get in touch</a>
+            </div>
+            <div class="hero-stats">
+              <div>
+                <div class="stat-num" data-count="1">0</div>
+                <div class="stat-label">Years of Learning</div>
+              </div>
+
+              <div>
+                <div class="stat-num" data-count="5">0</div>
+                <div class="stat-label">Full-stack Projects</div>
+              </div>
+
+              <div>
+                <div class="stat-num" data-count="10">0</div>
+                <div class="stat-label">Backend APIs Built</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="hero-image">
+              <div class="hero-image-ring"></div>
+              <div class="hero-image-photo">
+                <img
+                  src="assets/images/profile/photo_2026-07-04_13-14-52.jpg"
+                  alt="Portrait of An Menghour"
+                />
+              </div>
+              <div class="hero-image-badge">
+                <span class="dot"></span>Open to work
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 about-copy reveal">
+            <div class="eyebrow">About</div>
+            <p>
+              I am a Junior Full-Stack Developer with a strong passion for
+              <strong>software development</strong> and
+              <strong>modern web technologies</strong>. My journey in technology
+              began through self-learning and hands-on projects, where I
+              developed a solid foundation in
+              <strong>
+                frontend development, backend APIs, and database systems </strong
+              >.
+            </p>
+            <p>
+              I was honored to receive a <strong>scholarship</strong> sponsored
+              by the
+              <strong>Ministry of Posts and Telecommunications</strong> and the
+              <strong>CBRD FUND</strong>, which allowed me to join the
+              <strong>ANT Technology Training Center</strong>. During this
+              intensive <strong>13-month training program</strong>, I gained
+              practical experience in
+              <strong>
+                full-stack web development, software engineering principles,
+              </strong>
+              teamwork, and <strong>real-world project development</strong>. The
+              program strengthened both my technical knowledge and
+              problem-solving skills through continuous hands-on practice.
+            </p>
+            <p>
+              Today, I continue to improve my skills in
+              <strong>JavaScript, Node.js, Vue.js, MySQL</strong>, and modern
+              development tools while building personal and academic projects.
+              My goal is to become a
+              <strong>skilled software engineer</strong> who creates
+              <strong>
+                reliable, scalable, and user-friendly applications
+              </strong>
+              that solve <strong>real-world problems</strong>. I am committed to
+              <strong>continuous learning</strong>, embracing
+              <strong>new technologies</strong>, and growing into a professional
+              developer who can contribute to
+              <strong>innovative technology solutions</strong>.
+            </p>
+          </div>
+          <div class="col-lg-6 reveal">
+            <div class="fact-row">
+              <span class="fact-key">Role</span
+              ><span class="fact-val">Junior Full-Stack Developer</span>
+            </div>
+            <div class="fact-row">
+              <span class="fact-key">Languages</span
+              ><span class="fact-val"
+                >JavaScript, PHP, Python, HTML/CSS, SQL</span
+              >
+            </div>
+            <div class="fact-row">
+              <span class="fact-key">Location</span
+              ><span class="fact-val">Phnom Penh</span>
+            </div>
+            <div class="fact-row">
+              <span class="fact-key">Experience</span
+              ><span class="fact-val">1 year</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Projects</div>
+          <h2>Things I've built</h2>
+          <p>
+            A few of the tools and services I've shipped and continue to
+            maintain.
+          </p>
+        </div>
+        <div class="row g-4" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Skills</div>
+          <h2>Tools I reach for</h2>
+          <p>
+            The stack I use most, across languages, infrastructure, and
+            practice.
+          </p>
+        </div>
+        <div class="row g-3" id="skillGrid"></div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Experience</div>
+          <h2>My Development Journey</h2>
+          <p>From frontend basics to full-stack systems and backend APIs.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- ITEM 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-card">
+              <div class="tl-date">2025 — Present</div>
+              <div class="tl-role">Student Full-Stack Developer</div>
+              <div class="tl-org">ANT Technology Training Center</div>
+
+              <div class="tl-desc">
+                Built multiple full-stack projects focusing on CRUD systems,
+                REST APIs, and authentication workflows. Improved frontend
+                structure and backend logic using Node.js, PHP, and MySQL.
+              </div>
+
+              <div class="tl-tags">
+                <span class="tag">Node.js</span>
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">REST API</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ITEM 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-card">
+              <div class="tl-date">2024 — 2025</div>
+              <div class="tl-role">Backend Development Projects</div>
+              <div class="tl-org">Self Learning</div>
+
+              <div class="tl-desc">
+                Practiced backend development using Node.js and PHP. Built REST
+                APIs, authentication systems, and database-driven applications
+                with MySQL.
+              </div>
+
+              <div class="tl-tags">
+                <span class="tag">Node.js</span>
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ITEM 3 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-card">
+              <div class="tl-date">2023 — 2024</div>
+              <div class="tl-role">Frontend Web Projects</div>
+              <div class="tl-org">Self Learning</div>
+
+              <div class="tl-desc">
+                Built responsive web applications using HTML, CSS, Bootstrap,
+                and JavaScript. Focused on layout design, UI components, and
+                interactive forms.
+              </div>
+
+              <div class="tl-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Bootstrap</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================= CONTACT ================= -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Contact</div>
+          <h2>Let's talk</h2>
+          <p>
+            I'm currently looking for internship and junior full-stack developer
+            opportunities. Feel free to reach out if you'd like to collaborate
+            or discuss a project.
+          </p>
+        </div>
+        <div class="contact-wrap reveal">
+          <div class="row g-5">
+            <div class="col-lg-6 contact-info">
+              <h2>Get in touch</h2>
+              <p>
+                Email is the fastest way to reach me, or send a message directly
+                using the form — I read every one.
+              </p>
+              <div class="d-flex gap-2 flex-wrap">
+                <a
+                  class="btn-app btn-app-primary"
+                  href="mailto:menghour42220@gmail.com"
+                  >Email me</a
+                >
+                <a
+                  class="btn-app btn-app-ghost"
+                  href="https://github.com/Amh42220"
+                  >GitHub</a
+                >
+                <a
+                  class="btn-app btn-app-ghost"
+                  href="https://www.linkedin.com/in/an-menghour-396058342/"
+                  >LinkedIn</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <form id="contactForm" novalidate>
+                <div class="mb-3">
+                  <label for="cf-name" class="form-label form-label-app"
+                    >Name</label
+                  >
+                  <input
+                    class="form-control form-control-app"
+                    id="cf-name"
+                    name="name"
+                    type="text"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="cf-email" class="form-label form-label-app"
+                    >Email</label
+                  >
+                  <input
+                    class="form-control form-control-app"
+                    id="cf-email"
+                    name="email"
+                    type="email"
+                    placeholder="you@example.com"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="cf-message" class="form-label form-label-app"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control form-control-app"
+                    id="cf-message"
+                    name="message"
+                    rows="4"
+                    placeholder="What are you working on?"
+                    required
+                  ></textarea>
+                </div>
+                <button class="form-submit mb-3" type="submit">
+                  Send message
+                </button>
+                <p class="form-note">
+                  This form isn't wired up to a backend yet — connect it to an
+                  email service (e.g. Formspree) or your own API to receive
+                  submissions.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>© 2026 An Menghour. All rights reserved.</footer>
+
+    <!-- Bootstrap JS bundle (for navbar collapse) -->
+    <script src="assets/vendors/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
